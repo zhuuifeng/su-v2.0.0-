@@ -1,0 +1,192 @@
+@charset "utf-8";
+
+
+
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, figure, figcaption, code, del, dfn, em, button, q, dl, dt, dd, ol, ul, li, fieldset, form, legend, table, tf, tr, th {
+  border: 0px;
+  padding: 0px;
+  font-size: 100%;
+  margin: 0px;
+  font-family: inherit;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-text-size-adjust: 100%;
+  font-weight: normal;
+  word-break: break-word; }
+
+body {
+  /*background: #E7EAEA;*/
+  color: #333333;
+  line-height: 1.6em;
+  font-size: 14px;
+  font-family: "微软雅黑", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", PingHei, STHeiti;
+  margin: 0px auto;
+  max-width: 2560px;
+  overflow-x: hidden; }
+
+input[type="text"], input[type="password"], textarea, select {
+  font-family: "微软雅黑", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", PingHei, STHeiti;
+  background-color: #FFFFFF;
+  font-size: 12px;
+  outline: none;
+  padding: 0;
+  -webkit-appearance: none;
+  border-radius: 0; }
+
+img {
+  border: 0px;
+  vertical-align: bottom;
+  -ms-interpolation-mode: bicubic; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+a:hover {
+  text-decoration: none;
+ }
+:focus { outline:0; }
+ul, li {
+  list-style-type: none; }
+
+.fl{
+  float: left; }
+
+.fr{
+  float: right; }
+
+.clearfix:after {
+  display: block;
+  content: '';
+  clear: both;
+  height: 0px;
+  visibility: hidden; }
+
+.relative {
+  position: relative; }
+
+.clearfix {
+  *display: table;
+  *zoom: 1; }
+
+.clear {
+  clear: both;
+  overflow: hidden;
+  height: 0; }
+
+*::selection {
+  background: #5C307D;
+  color: #FFFFFF;
+  text-shadow: none; }
+
+*::-moz-selection {
+  background: #5C307D;
+  color: #FFFFFF;
+  text-shadow: none; }
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{ margin:0; padding:0; }
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{ display:block; }
+table{ border-collapse:collapse; border-spacing:0; }
+caption,th{ text-align:left; font-weight:normal; }
+html,body,fieldset,img,iframe,abbr{ border:0;}
+img{vertical-align:top;}
+html{ overflow-x:hidden; }
+i,cite,em,var,address,dfn{ font-style:normal; }
+[hidefocus],summary{ outline:0; }
+li{ list-style:none; }
+h1,h2,h3,h4,h5,h6,small{ font-size:100%; }
+sup,sub{ font-size:83%; }
+pre,code,kbd,samp{ font-family:inherit; }
+q:before,q:after{ content:none; }
+textarea{ overflow:auto; resize:none; }
+label,summary{ cursor:default; }
+a,button{ cursor:pointer; }
+h1,h2,h3,h4,h5,h6,em,strong,b{ font-weight:bold; }
+del,ins,u,s,a,a:hover{ text-decoration:none; }
+body,textarea,input,button,select,keygen,legend{  color:#333; outline:0; }
+
+
+/* @end */
+/* body {
+  margin: 0;
+  padding: 0;
+}
+.Container {
+  margin: 0 auto;
+  padding: 0;
+}
+.Text-Left {
+  text-align: left;
+}
+.Text-Right {
+  text-align: right;
+}
+.Text-Center {
+  text-align: center;
+}
+.Float-Left {
+  float: left;
+  margin-right: 20px;
+}
+.Float-Right {
+  float: right;
+  margin-left: 20px;
+}
+.Button {
+  display: inline-block;
+  padding: 20px;
+  margin: 0;
+  background-color: #da0d25;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #7a0715;
+  text-shadow: none;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 0;
+  -ms-transition: color 300ms ease, background-color 300ms ease;
+  -webkit-transition: color 300ms ease, background-color 300ms ease;
+  -moz-transition: color 300ms ease, background-color 300ms ease;
+  -o-transition: color 300ms ease, background-color 300ms ease;
+  transition: color 300ms ease, background-color 300ms ease;
+}
+.Button:hover,
+.Button:focus {
+  color: #7a0715;
+  background: #f22840;
+}
+.Button.Small {
+  padding: 5px 10px;
+  font-size: small;
+}
+.Button.Block {
+  padding: 20px 40px;
+  width: 300px;
+  height: 200px;
+}
+.Button h1 {
+  font-size: 2em;
+  line-height: 1.25em;
+  color: #FFF;
+} */
+/* Custom Flipster Styles */
+/* .flipster {
+  padding-bottom: 50px;
+}
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.invisible {
+  visibility: hidden;
+}
+.affix {
+  position: fixed;
+} */

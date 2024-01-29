@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	    <meta charset="utf-8" />
+        <link rel="icon" href="img/xsh.ico" />
+        <title>网站正在建设中</title><meta Name="keywords" Content="江西科技师范大学学生会" />
+    <style>
+        body {
+            background-color: #2C3E50; /* 科技风格的背景颜色 */
+            text-align: center;
+            padding-top: 100px;
+        }
+        h1 {
+            font-size: 48px;
+            color: #F1C40F; /* 黄色标题文字 */
+        }
+        p {
+            font-size: 24px;
+            color: white; /* 白色文字 */
+        }
+        footer {
+            position: fixed;
+            bottom: -100px;
+            width: 100%;
+            margin-top: 50px;
+            font-size: 16px;
+            color: white; /* 白色文字 */
+            display: none; /* 默认隐藏页脚 */
+        }
+    </style>
+</head>
+<body>
+    <h1>网站正在建设中</h1>
+    <p>请稍后访问...</p>
+    <footer>版权所有&#169; 2024 追风科学院</footer>
+
+    <script>
+        // 获取页脚元素
+        var footer = document.querySelector('footer');
+
+        // 监听页面滚动事件
+        window.addEventListener('scroll', function() {
+            // 如果用户滚动了超过100像素，则显示页脚
+            if (window.scrollY > 100) {
+                footer.style.display = 'block';
+            } else {
+                // 否则隐藏页脚
+                footer.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
